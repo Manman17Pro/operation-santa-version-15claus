@@ -222,8 +222,14 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`Kaminada 0`, function (sprite
     Dwra = 1
     info.setScore(Dwra)
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile27`, function (sprite, location) {
+    tiles.placeOnRandomTile(Agios_Basilhs, assets.tile`myTile28`)
+})
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     kakos.destroy(effects.hearts, 500)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile28`, function (sprite, location) {
+    tiles.placeOnRandomTile(Agios_Basilhs, assets.tile`myTile27`)
 })
 let kakos: Sprite = null
 let Agios_Basilhs: Sprite = null
