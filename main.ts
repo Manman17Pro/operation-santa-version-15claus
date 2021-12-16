@@ -234,7 +234,7 @@ let Dwra = 0
 Dwra = 0
 let lEVEL = 0
 game.splash("Operation Santa")
-game.showLongText("Γεια σου παικτη.Είμαι ο ¨Αγιος Βασίλης.Η αποστολή μου ειναι να μεταφερω ολα τα δωρα (10) σε ολα τα σπιτια ΚΑΙ ΝΑ ΣΚΟΤΩΣΩ ΤΑ ΞΩΤΙΚΑ  ", DialogLayout.Full)
+game.showLongText("Γεια σου παικτη.Είμαι ο ¨Αγιος Βασίλης.Η αποστολή μου ειναι να μεταφερω ολα τα δωρα (10) σε ολα τα σπιτια ΚΑΙ ΝΑ ΣΚΟΤΩΣΩ TOΥΣ ΚΑΛΙΚΑΝΤΖΑΡΟΣ  ", DialogLayout.Full)
 LEVEL1()
 game.onUpdate(function () {
     Agios_Basilhs.setImage(img`
